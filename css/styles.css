@@ -223,3 +223,55 @@ ul li {
     text-align: center;
     font-size: 13px;
   }
+
+  /*********WEB RESPONSIVE - MEDIA QUERYS **********/
+
+@media screen and (min-width: 480px) {
+    /*Mientras este arriba de esta resolución, el contenedor del formularío tendra esa resolución  */
+    form {
+      max-width: 480px;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    /* Mientras este abajo de esta resolución */
+    .nav-logo1 img {
+      max-width: 230px;
+    }
+  
+    .nav-logo2 {
+      /* Desaparecerá el logo2 */
+      display: none;
+    }
+  
+    header > nav {
+      /* El logo 1 se hara mas pequeño y aparecerá arriba del nav */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .banner-img {
+      /* Desaparecerá la imágen de la sección 2 */
+      display: none;
+    }
+  
+    .offer h2 {
+      font-size: 15px;
+    }
+  
+    .cards-content {
+      /* Las cards se harán de una columna */
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .card {
+      font-size: small;
+    }
+  
+    .banner h2 {
+      font-size: 15px;
+    }
+  }
