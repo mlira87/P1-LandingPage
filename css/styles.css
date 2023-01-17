@@ -52,3 +52,41 @@ ul li {
   scale: 1.08;
   cursor: pointer;
 }
+
+/*************** BODY ***********************************/
+
+/* Sección 1 - Jumbotron*/
+
+.banner {
+    /*Sección del baner*/
+    background-color: #d5d5d5;
+    padding: 50px 0;
+    width: 100%;
+  }
+  
+  .banner-content {
+    /*Alineación del jumbotron*/
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .banner-img {
+    width: 150%;
+  }
+  
+  .banner-img img {
+    width: 100%;
+  }
+  
+  .banner-content h2 {
+    text-align: justify;
+    background-color: #c2cede;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.247); /*Genera sombras */
+    color: #193d7d;
+    font-size: 20px;
+    width: 100%;
+  }
