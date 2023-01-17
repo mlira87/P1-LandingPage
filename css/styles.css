@@ -17,4 +17,38 @@
   body {
     font-family: "Montserrat", sans-serif;
   }
-  
+
+  /*Secciones-Contenedores*/
+
+/*HEADER Y NAVEGACIÓN*/
+header {
+  background-color: #193d7d;
+  color: white;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-logo1 img {
+  max-width: 330px;
+}
+
+ul li {
+  list-style: none; /*Elimina el formato de lista*/
+}
+
+.nav-hover:hover {
+  /*Efectos en la barra de navegación*/
+  scale: 1.08;
+  cursor: pointer;
+}
